@@ -10,7 +10,7 @@ I worked on this for a week straight before I began to lose motivation (I also w
 I managed to write a pretty modular system for adding new items easily, as well as implementing item proc chains, which I am still proud of.
 
 There's a pretty high chance I pick this up again, although I think this genre is becoming a bit oversaturated.  
-If so, I intend to publish it as a commercial release, as well as add modding support
+If so, I intend to publish it as a commercial release, as well as add modding support.
 
 The font used is a slightly edited version of Theoretical by [somepx](https://somepx.itch.io/) (support their work [here](https://somepx.itch.io/humble-fonts-tiny)!)  
 I also used the [Input](https://offalynne.github.io/Input/#/6.1/) library.
