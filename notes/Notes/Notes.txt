@@ -1,0 +1,74 @@
+- add proc chains
+	- applies only to onHit (onKill as well if things get a little wild but idk yet)
+	- UPDATE: added this but only applies to select items (e.g., Charge Beam), not all onHit
+	- UPDATE 2: i think i will let onKill items reset the proc chain; we'll see how this one goes
+		- UPDATE 3: NOPE LOL
+		- kid named bomb shot > explosive weaponry > bomb shot > etc.
+- preset crafted waves again over proc gen
+	- randomize the order they appear in though
+	- also group the waves/levels in a difficulty list (eg. area 1 randomizes all the area 1 levels)
+		- for split paths, if the player chooses a harder level, just pick a random level from the tier above (does not affect the preset randomization)
+		
+- for aim ahead, maybe switch to average target velocity when a certain distance away
+
+- Drone and basic Enemy could literally just be obj_Basic ship; they have nearly identical code
+	- on second thought, mauybe just keep them separete for easier reading and such
+
+- maybe just use gms built-in collision
+	- make a circle sprite just for collision mask and scale it
+	
+- hmm if damage increases are applied to the projectile, how will it work for explosions
+	- does the entire explosion increase in damage??
+	- ok lets just have it not do this for explosions lol
+
+- MAJORLY BIG BRAIN
+- just have the base Ship class and only use that object
+	- make new ships by just swapping out the AI, stats, etc, through normal script function
+	- create_ship(shipType)
+	- UPDATE: this is done
+	
+- problem with Green explosive weaponry !
+	- on kill, the ring can potentially proc another explosive weaponry if the explosion kills another
+	- that second explosion will be double the damage of the first
+		- exponential damage increase (doubling each time)
+		- most noticible with Railgun
+	- SOLUTION: just add explosive weaponry itself to the proc chain so it cant proc itself :heheheha:
+		- i am so big brain
+		
+- uh since power shot scales with bullet speed, shotgun basically does no kb at its max range
+	- maybe just keep the original speed in memory and base it off of that??
+	- ok done
+	
+- displaying the item sprites at 0.5 scale (25% of original area) looks fine
+	- use to fit more horizontally on previous run display page
+	
+- missile retargetting not working; maybe make the switch to not homing after 1 frame
+
+- note to self: do NOT attempt to over-reuse existing systems lmao
+	- trying to fit skills into weapons DID NOT GO WELL :skull: :skull:
+	
+
+
+Items to be added:
+
+Shieldbreaker [G/B] - On hit, deal an extra 1 (2) Shield damage.									[done]
+Energy Siphon [G/B] - On hit, if you have Shield remaining, 5% (10%) chance to restore 1 Shield.	[done]
+Auto Repair [B] - Repair 1 extra Hull between levels.
+Hull Plating [B] - 25% chance to negate Hull damage taken.
+Explosive Weaponry [W/B] - On kill, the target explodes, dealing 1x (2x) damage to nearby enemies.	[done]
+Bomb Shot [B] - On hit, 7% chance to deal 1 damage to nearby enemies.								[done]
+Reactive Shield [B] - On Shield break, destroy nearby enemy projectiles.
+Missile Launcher [W/G] - Every 6 seconds, fire a homing missile for 1 (2) damage.					[done]
+Accelerator [B] - Every 4 weapon uses, fire piercing lasers instead of bullets.						[done]
+name [W/G] - On kill, increase weapon firing speed by 10% (20%) for 4 seconds.
+	- probably add in a base Status class that has its own add and remove functions if doing this
+name [B] - Reduce utility cooldown by 10%.
+Pulse Weapon [B] - Every 3 seconds, fire a pulse that deals 1 damage to nearby enemies.				[done]
+Hull Shrapnel [B] - On taking Hull damage, fire 6 (12) projectiles outwards for 1 damage each.		[done]
+Emergency Booster [W/G] - On taking damage, increase movement speed by 12% (25%) for 2 seconds.		[done]
+	- problem: if item is ever removed before the buff is removed, it will be permanent
+	- should use a base Status class for this as well to bypass that problem, as it will naturally expire
+		- each stack of the item should keep track of its own buff application (maybe number each one with an ID)
+		- give each item a unique "instance" ID then (globally incremented for every item created)
+	- UPDATE: the current Status setup now has remove function capability
+EM Field [B] - On kill, spawn a field that lasts for 4 seconds, slowing enemies by 40%.				[done]

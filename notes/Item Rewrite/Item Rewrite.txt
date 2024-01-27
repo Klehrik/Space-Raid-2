@@ -1,0 +1,33 @@
+[White]
+
+Engine Booster		Increase movement speed by 10% (+5%, linear).
+Secondary Cannon	On weapon use, 10% (+7%, linear) chance to fire a bullet for 1 damage.
+Weapon Booster		Increase weapon firing speed by 7% (+7%, linear).
+Shield Capacitor	Increase maximum Shield by 1 (+1, linear).
+EMP Weaponry		On hit, 7% (+7%, linear) chance to stun the target for 1 second.
+Bomb Shot			On hit, 7% (+7%, linear) chance to deal 1x damage to nearby enemies.
+Explosive Weaponry	On kill, the target explodes, dealing 2 (+1, linear) damage to nearby enemies.
+Missile Launcher	Every 6 seconds, fire a homing missile for 1 (+1, linear) damage.
+Hull Shrapnel		On taking Hull damage, fire 6 (+3, linear) projectiles outwards for 1 damage each.
+Emergency Booster	On taking damage, increase movement speed by 15% (+10%, linear) for 2.5 seconds.
+Hull Spikes			Increase collision damage by 1 (+1, linear).
+
+
+
+[Green]
+
+Power Shot			On hit, 10% (+7%, linear) chance to deal knockback.
+Piercing Shot		On hit, 10% chance to deal an extra 2 (+2, linear) damage.
+Shieldbreaker		On hit, 25% chance to deal an extra 1 (+1, linear) Shield damage.
+Energy Siphon		On hit, if you have Shield remaining, 7% (+7%, linear) chance to restore 1 Shield.
+Explosive Weaponry II	On kill, the target explodes 1 (+1, linear) time, dealing 1x damage to nearby enemies.
+
+
+
+[Blue]
+
+Junior				Summon 1 (+1, linear) drone at the start of every level that inherits all your items.
+Charge Beam			On hit, charge this item; at 10 (+2, linear) charges, fire a piercing laser for 2 (+2, linear) damage.
+Accelerator			Every 4 (-1, linear) weapon uses, fire piercing lasers instead of bullets.
+Pulse Weapon		Every 3 seconds, fire a pulse that deals 1 (+1, linear) damage to nearby enemies.
+EM Field			On kill, spawn a field that lasts for 4 (+2, linear) seconds, slowing enemies by 40%.
