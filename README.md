@@ -10,7 +10,7 @@ I worked on this for a week straight before I began to lose motivation (I also w
 
 There's a pretty high chance I pick this up again, although I think this genre is becoming a bit oversaturated.
 
-The font used is a slightly edited version of Theoretical by [somepx](https://somepx.itch.io/) (support their work [here](https://somepx.itch.io/humble-fonts-tiny)!)
+The font used is a slightly edited version of Theoretical by [somepx](https://somepx.itch.io/) (support their work [here](https://somepx.itch.io/humble-fonts-tiny)!)  
 I also used the [Input](https://offalynne.github.io/Input/#/6.1/) library.
 
 ---
