@@ -18,7 +18,7 @@ I also used the [Input](https://offalynne.github.io/Input/#/6.1/) library.
 ### Controls
 
 Arrows/WASD - Move  
-C/Space - Shoot  
+C/Space - Shoot (hold)  
 X/Shift - Dash  
 Z/Q - Change target   
 R - Reset  
