@@ -9,7 +9,8 @@ A sequel to [Space Raid](https://klehrik.itch.io/space-raid).
 I worked on this for a week straight before I began to lose motivation (I also wasn't totally sure how I wanted to balance the items and I think that contributed to that a bit as well).  
 I managed to write a pretty modular system for adding new items easily, as well as implementing item proc chains, which I am still proud of.
 
-There's a pretty high chance I pick this up again, although I think this genre is becoming a bit oversaturated.
+There's a pretty high chance I pick this up again, although I think this genre is becoming a bit oversaturated.  
+If so, I intend to publish it as a commercial release, as well as add modding support
 
 The font used is a slightly edited version of Theoretical by [somepx](https://somepx.itch.io/) (support their work [here](https://somepx.itch.io/humble-fonts-tiny)!)  
 I also used the [Input](https://offalynne.github.io/Input/#/6.1/) library.
