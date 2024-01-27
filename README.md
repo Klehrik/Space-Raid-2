@@ -2,7 +2,7 @@ Originally created in **July 2023**.
 
 ---
 
-![space_raid_2](https://github.com/Klehrik/Space-Raid-2/assets/78520710/7dfd947f-640f-4401-981b-839fe1e17179)
+![Showcase of Space Raid 2](https://github.com/Klehrik/Space-Raid-2/assets/78520710/7dfd947f-640f-4401-981b-839fe1e17179)
 
 
 A sequel to [Space Raid](https://klehrik.itch.io/space-raid).  
