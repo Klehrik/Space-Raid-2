@@ -6,6 +6,7 @@ Originally created in **July 2023**.
 
 
 A sequel to [Space Raid](https://klehrik.itch.io/space-raid).  
+I worked on this for a week straight before I began to lose motivation (I also wasn't totally sure how I wanted to balance the items and I think that contributed to that a bit as well).
 
 There's a pretty high chance I pick this up again, although I think this genre is becoming a bit oversaturated.
 
