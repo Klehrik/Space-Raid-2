@@ -7,6 +7,8 @@ Originally created in **July 2023**.
 
 A sequel to [Space Raid](https://klehrik.itch.io/space-raid).  
 
+There's a pretty high chance I pick this up again, although I think this genre is becoming a bit oversaturated.
+
 The font used is a slightly edited version of Theoretical by [somepx](https://somepx.itch.io/) (support their work [here](https://somepx.itch.io/humble-fonts-tiny)!)
 I also used the [Input](https://offalynne.github.io/Input/#/6.1/) library.
 
@@ -23,3 +25,4 @@ F - Fullscreen
 LMB - Mouse over items on the left to view tooltips 
 
 - Controller works as well
+- In this demo build, you gain 2 random items every level, and the enemies gain 1 random item
